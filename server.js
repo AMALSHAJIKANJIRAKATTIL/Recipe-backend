@@ -21,7 +21,7 @@ const PORT=5000;
 // Model
 const recipe=require('./models/recipe/recipeModel')
 
-app.use(cors());
+app.use(cors({ debug: true }));
 
 
 //Routes
